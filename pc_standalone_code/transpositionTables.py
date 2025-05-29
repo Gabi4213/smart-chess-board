@@ -2,8 +2,7 @@ import numpy
 
 class TranspositionTables:
 
-    KING_PIECE_TABLE = numpy.array
-    ([
+    KING_PIECE_TABLE = numpy.array([
         [-30, -40, -40, -50, -50, -40, -40, -30],
         [-30, -40, -40, -50, -50, -40, -40, -30],
         [-30, -40, -40, -50, -50, -40, -40, -30],
@@ -14,8 +13,7 @@ class TranspositionTables:
         [20, 30, 10, 0, 0, 10, 30, 20]
     ])
 
-    QUEEN_PIECE_TABLE = numpy.array
-    ([
+    QUEEN_PIECE_TABLE = numpy.array([
         [-20, -10, -10, -5, -5, -10, -10, -20],
         [-10, 0, 0, 0, 0, 0, 0, -10],
         [-10, 0, 5, 5, 5, 5, 0, -10],
@@ -26,8 +24,7 @@ class TranspositionTables:
         [-20, -10, -10, -5, -5, -10, -10, -20]
     ])
 
-    ROOK_PIECE_TABLE = numpy.array
-    ([
+    ROOK_PIECE_TABLE = numpy.array([
         [0, 0, 0, 0, 0, 0, 0, 0],
         [5, 10, 10, 10, 10, 10, 10, 5],
         [-5, 0, 0, 0, 0, 0, 0, -5],
@@ -38,8 +35,7 @@ class TranspositionTables:
         [0, 0, 0, 5, 5, 0, 0, 0]
     ])
 
-    BISHOP_PIECE_TABLE = numpy.array
-    ([
+    BISHOP_PIECE_TABLE = numpy.array([
         [-20, -10, -10, -10, -10, -10, -10, -20],
         [-10, 0, 0, 0, 0, 0, 0, -10],
         [-10, 0, 5, 10, 10, 5, 0, -10],
@@ -50,8 +46,7 @@ class TranspositionTables:
         [-20, -10, -10, -10, -10, -10, -10, -20]
     ])
 
-    KNIGHT_PIECE_TABLE = numpy.array
-    ([
+    KNIGHT_PIECE_TABLE = numpy.array([
         [-50, -40, -30, -30, -30, -30, -40, -50],
         [-40, -20, 0, 0, 0, 0, -20, -40],
         [-30, 0, 10, 15, 15, 10, 0, -30],
@@ -62,8 +57,7 @@ class TranspositionTables:
         [-50, -40, -30, -30, -30, -30, -40, -50]
     ])
 
-    PAWN_PIECE_TABLE = numpy.array
-    ([
+    PAWN_PIECE_TABLE = numpy.array([
         [0, 0, 0, 0, 0, 0, 0, 0],
         [50, 50, 50, 50, 50, 50, 50, 50],
         [10, 10, 20, 30, 30, 20, 10, 10],
